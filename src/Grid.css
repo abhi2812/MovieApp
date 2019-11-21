@@ -1,0 +1,134 @@
+.site {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 230px 230px 230px;
+  color: beige;
+}
+
+.one {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  align-self: center;
+  text-align: center;
+  font-size: 90px;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  background-color: rgba(177, 137, 137, 0.2);
+  border-color: coral;
+}
+
+.two {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  background-color: rgba(150, 76, 76, 0.2);
+  border-color: coral;
+}
+
+
+.three {
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  background-color: rgba(231, 31, 31, 0.2);
+  border-color: coral;
+}
+
+.four {
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  background-color: rgba(128, 117, 117, 0.2);
+  border-color: coral;
+}
+
+.five {
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  background-color: rgba(31, 18, 18, 0.2);
+  border-color: coral;
+}
+
+.six {
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  background-color: rgba(244, 245, 248, 0.2);
+  border-color: coral;
+}
+.one:hover,
+.one:focus,
+.one:active {
+  transform: scale(1.01);
+}
+.two:hover,
+.two:focus,
+.two:active {
+  transform: scale(1.01);
+}
+.three:hover,
+.three:focus,
+.three:active {
+  transform: scale(1.01);
+}
+.four:hover,
+.four:focus,
+.four:active {
+  transform: scale(1.01);
+}
+.five:hover,
+.five:focus,
+.five:active {
+  transform: scale(1.01);
+}
+.six:hover,
+.six:focus,
+.six:active {
+  transform: scale(1.01);
+}
+
+button {
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 30px;
+  width: 105px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+}
